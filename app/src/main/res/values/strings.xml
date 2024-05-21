@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Portfolio</string>
+    <string name="ButtonEntrar">Entrar</string>
+    <string name="ButtonCadastrar">Cadastrar</string>
+    <string name="ButtonVerificar">Verificar</string>
+    <string name="text_CriaConta">Crie sua Conta</string>
+    <string name="text_EsqueceuSenha_login">Esqueceu a Senha?</string>
+    <string name="text_EsqueceuSenha">Preencha seu email para verificar sua conta!</string>
+    <string name="textEfetuarLogin">Efetuar login</string>
+    <string name="perfilPeso">Peso</string>
+    <string name="perfilIdade">Idade</string>
+    <string name="perfilAltura">Altura</string>
+    <string name="perfilSexo">Sexo</string>
+    <string name="interrogação">\?</string>
+</resources>

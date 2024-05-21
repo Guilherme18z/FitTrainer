@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Esqueceu a Senha?"
+        android:textAllCaps="true"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:id="@+id/textEsqueceuSenha"
+        android:layout_width="237dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/text_EsqueceuSenha"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_email"
+        style="@style/Edit_Text"
+        android:hint="Email"
+        android:textColorHint="@color/black"
+        android:drawableRight="@drawable/ic_email"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="40dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/ButtonVerificar"
+        style="@style/Button"
+        android:text="@string/ButtonVerificar"
+        />
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="14dp"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/textEfetuarLogin"
+        android:layout_width="237dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/textEfetuarLogin"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
+</androidx.core.widget.NestedScrollView>
