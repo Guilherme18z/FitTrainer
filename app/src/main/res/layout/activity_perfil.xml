@@ -13,7 +13,7 @@
         android:layout_height="117dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:src="@drawable/logoPerfil"/>
+        android:="@drawable/logoPerfil"/>
 
     <TextView
         android:layout_width="match_parent"
