@@ -18,7 +18,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/perfilPeso"
+        android:text="teste3"
         android:gravity="center"
         android:textAlignment="center"
         android:layout_marginTop="5dp"
@@ -76,7 +76,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/perfilPeso"
+        android:text="teste2"
         android:gravity="center"
         android:textAlignment="center"
         android:layout_marginTop="5dp"
