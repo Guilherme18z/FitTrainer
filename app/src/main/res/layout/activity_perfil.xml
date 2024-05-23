@@ -13,7 +13,7 @@
         android:layout_height="117dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:="@drawable/logoPerfil"/>
+        android:src="@drawable/logo"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -47,7 +47,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/perfilPeso"
+        android:text="teste"
         android:gravity="center"
         android:textAlignment="center"
         android:layout_marginTop="5dp"
