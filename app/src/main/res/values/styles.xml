@@ -31,5 +31,16 @@
         <item name="itemTextColor">@color/white</item>
     </style>  -->
 
+    <style name="edit_text_perfil">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/edit_text_perfil</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginStart">100dp</item>
+        <item name="android:layout_marginEnd">100dp</item>
+        <item name="android:maxLength">27</item>
+    </style>
+
 
 </resources>
