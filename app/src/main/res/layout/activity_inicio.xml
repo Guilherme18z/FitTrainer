@@ -10,12 +10,300 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="teste"
+        android:text="FitTrainer"
         android:layout_gravity="center"
         android:textStyle="bold"
-        android:textSize="50dp"
-        />
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="5dp"/>
 
+
+    <LinearLayout
+        android:id="@+id/LayoutSecundário"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="PEITORAL"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="50dp"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:fontFamily="monospace"/>
+
+
+        <LinearLayout
+            android:id="@+id/subLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/supinoReto"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Supino reto"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:background="@drawable/text_view_treinos"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="10 s"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/subLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/supinoInclinado"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Supino inclinado"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:background="@drawable/text_view_treinos"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="10 s"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/PeckDeck"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="PeckDeck"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:background="@drawable/text_view_treinos"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="20 s"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/Crossover"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Crossover"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:background="@drawable/text_view_treinos"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="15 s"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/supinoDeclinado"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Supino declinado"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:background="@drawable/text_view_treinos"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="10 s"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="DORSAIS"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="50dp"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:fontFamily="monospace"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/pulleyFrente"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Pulley frente"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:background="@drawable/text_view_treinos"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="10 s"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/pulleyCostas"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Pulley costas"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:background="@drawable/text_view_treinos"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="10 s"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/pulleyTriangulo"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Pulley triângulo"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:background="@drawable/text_view_treinos"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="20 s"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/remadaUnilateral"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Remada unilateral"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:background="@drawable/text_view_treinos"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="15 s"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
 
     <View
         android:layout_width="0dp"
