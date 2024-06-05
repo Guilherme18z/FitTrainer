@@ -13,6 +13,24 @@
         android:theme="@style/Theme.Portfolio"
         tools:targetApi="31">
         <activity
+            android:name=".menuAction"
+            android:exported="false" />
+        <activity
+            android:name=".treino_supino_declinado"
+            android:exported="false" />
+        <activity
+            android:name=".treino_crossover"
+            android:exported="false" />
+        <activity
+            android:name=".treino_peckDeck"
+            android:exported="false" />
+        <activity
+            android:name=".treino_supino_inclinado"
+            android:exported="false" />
+        <activity
+            android:name=".treino_supino_reto"
+            android:exported="false" />
+        <activity
             android:name=".activity_base"
             android:exported="false" />
         <activity
