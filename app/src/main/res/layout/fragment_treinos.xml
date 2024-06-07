@@ -36,7 +36,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textStyle="bold"
-            android:text="PEITORALL"
+            android:text="PEITORAL"
             android:layout_marginTop="30dp"
             android:layout_marginLeft="50dp"
             android:textSize="20dp"

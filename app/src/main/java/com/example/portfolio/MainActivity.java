@@ -72,17 +72,17 @@ public class MainActivity extends AppCompatActivity {
         String senha = editSenha.getText().toString().trim();
 
         if (email.isEmpty() || senha.isEmpty()) {
-            Toast.makeText(this, "Por favor, preencha todos os campos", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Por favor, Preencha todos os campos!", Toast.LENGTH_SHORT).show();
         } else {
             SQLiteDatabase db = dbHelper.getReadableDatabase();
             String[] columns = { DatabaseHelper.COLUMN_ID };
             String selection = DatabaseHelper.COLUMN_EMAIL + " = ? AND " + DatabaseHelper.COLUMN_PASSWORD + " = ?";
             String[] selectionArgs = { email, senha };
-
+        
             Cursor cursor = db.query(DatabaseHelper.TABLE_USERS, columns, selection, selectionArgs, null, null, null);
 
             if (cursor != null && cursor.moveToFirst()) {
-                Toast.makeText(this, "Login realizado com sucesso", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Login Realizado com Sucesso!", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(MainActivity.this, Inicio.class);
                 startActivity(intent);
                 cursor.close();

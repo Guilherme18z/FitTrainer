@@ -31,7 +31,6 @@
 
     <EditText
         android:id="@+id/peso"
-        android:layout_height="60dp"
         android:textColor="@color/white"
         android:hint="@string/interrogação"
         android:textAlignment="center"
@@ -55,8 +54,6 @@
         />
 
     <EditText
-        android:layout_width="210dp"
-        android:layout_height="60dp"
         android:textColor="@color/white"
         android:hint="@string/interrogação"
         android:textAlignment="center"
@@ -80,8 +77,6 @@
         />
 
     <EditText
-        android:layout_width="210dp"
-        android:layout_height="60dp"
         android:textColor="@color/white"
         android:hint="@string/interrogação"
         android:textAlignment="center"
@@ -105,8 +100,6 @@
         />
 
     <EditText
-        android:layout_width="210dp"
-        android:layout_height="60dp"
         android:textColor="@color/white"
         android:hint="@string/interrogação"
         android:textAlignment="center"
