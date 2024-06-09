@@ -24,5 +24,19 @@ public class Config extends AppCompatActivity {
             return insets;
         });
 
+        Button btnSair = findViewById(R.id.btnSair);
+        btnSair.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Criar um Intent para iniciar a tela de login
+                Intent intent = new Intent(Config.this, MainActivity.class);
+                // Limpar a pilha de atividades para que a tela de login seja a única atividade na pilha
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                // Iniciar a tela de login
+                startActivity(intent);
+                // Finalizar a atividade atual
+                finish();
+            }
+
+        });
     }
 }

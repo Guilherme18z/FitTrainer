@@ -30,7 +30,7 @@
         />
 
     <EditText
-        android:id="@+id/peso"
+        android:id="@+id/pesoEditText"
         android:textColor="@color/white"
         android:hint="@string/interrogação"
         android:textAlignment="center"
@@ -54,6 +54,7 @@
         />
 
     <EditText
+        android:id="@+id/idadeEditText"
         android:textColor="@color/white"
         android:hint="@string/interrogação"
         android:textAlignment="center"
@@ -77,6 +78,7 @@
         />
 
     <EditText
+        android:id="@+id/alturaEditText"
         android:textColor="@color/white"
         android:hint="@string/interrogação"
         android:textAlignment="center"
@@ -100,6 +102,7 @@
         />
 
     <EditText
+        android:id="@+id/sexoEditText"
         android:textColor="@color/white"
         android:hint="@string/interrogação"
         android:textAlignment="center"
@@ -109,6 +112,7 @@
         />
 
     <Button
+        android:id="@+id/saveButton"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:textAlignment="center"
