@@ -1,10 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".treino_supino_inclinado">
+    android:orientation="vertical"
+    android:background="@color/background">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="4dp"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:id="@+id/titleSupinoInclinado"
+        style="@style/tituloTreinos"
+        android:text="Supino Inclinado"/>
+
+    <TextView
+        android:id="@+id/step1SupinoInclinado"
+        style="@style/textView_Treinos"
+        android:text="1. Ajuste o banco para um ângulo de aproximadamente 30 a 45 graus."/>
+
+    <TextView
+        android:id="@+id/step2SupinoInclinado"
+        style="@style/textView_Treinos"
+        android:text="2. Segure a barra com as mãos um pouco mais largas que a largura dos ombros."/>
+
+    <TextView
+        android:id="@+id/step3SupinoInclinado"
+        style="@style/textView_Treinos"
+        android:text="3. Baixe a barra em direção ao peito controladamente, mantendo os cotovelos apontando para fora em um ângulo um pouco mais amplo que no supino reto."/>
+
+    <TextView
+        android:id="@+id/step4SupinoInclinado"
+        style="@style/textView_Treinos"
+        android:text="4. Empurre a barra para cima até que os braços estejam estendidos."/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/bottom_navigation"
+        android:background="@color/black"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white"
+        app:labelVisibilityMode="labeled"/>
+
+
+</LinearLayout>
+

@@ -1,4 +1,4 @@
-<!-- supino_declinado.xml -->
+<!-- pulley_triangulo.xml -->
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -16,29 +16,29 @@
         android:src="@drawable/logo"/>
 
     <TextView
-        android:id="@+id/titleSupinoDeclinado"
+        android:id="@+id/titlePulleyTriangulo"
         style="@style/tituloTreinos"
-        android:text="Supino Declinado"/>
+        android:text="Pulley Triângulo"/>
 
     <TextView
-        android:id="@+id/step1SupinoDeclinado"
+        android:id="@+id/step1PulleyTriangulo"
         style="@style/textView_Treinos"
-        android:text="1. Ajuste o banco para uma posição declinada, de cerca de 15 a 30 graus."/>
+        android:text="1. Sente-se no banco do pulley e ajuste a altura da polia para que fique acima da cabeça."/>
 
     <TextView
-        android:id="@+id/step2SupinoDeclinado"
+        android:id="@+id/step2PulleyTriangulo"
         style="@style/textView_Treinos"
-        android:text="2. Segure a barra com as mãos um pouco mais largas que a largura dos ombros."/>
+        android:text="2. Segure a barra com as mãos na pegada triângulo (mãos próximas, formando um triângulo com as mãos)."/>
 
     <TextView
-        android:id="@+id/step3SupinoDeclinado"
+        android:id="@+id/step3PulleyTriangulo"
         style="@style/textView_Treinos"
-        android:text="3. Baixe a barra em direção ao peito controladamente, mantendo os cotovelos apontando para fora."/>
+        android:text="3. Puxe a barra em direção ao corpo até que as mãos estejam abaixo do queixo."/>
 
     <TextView
-        android:id="@+id/step4SupinoDeclinado"
+        android:id="@+id/step4PulleyTriangulo"
         style="@style/textView_Treinos"
-        android:text="4. Empurre a barra para cima até que os braços estejam estendidos."/>
+        android:text="4. Retorne a barra à posição inicial de forma controlada."/>
 
     <View
         android:layout_width="0dp"
