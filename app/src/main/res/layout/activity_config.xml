@@ -8,7 +8,7 @@
     android:background="@color/background">
 
 
-    <Button
+    <TextView
         android:id="@+id/btnSair"
         style="@style/Button"
         android:text="Sair"
