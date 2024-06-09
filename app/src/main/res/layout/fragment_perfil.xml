@@ -36,7 +36,7 @@
         />
 
     <EditText
-        android:id="@+id/pesoEditText"
+        android:id="@+id/peso"
         android:layout_width="210dp"
         android:layout_height="60dp"
         android:textColor="@color/white"
@@ -62,7 +62,7 @@
         />
 
     <EditText
-        android:id="@+id/idadeEditText"        android:layout_width="210dp"
+        android:layout_width="210dp"
         android:layout_height="60dp"
         android:textColor="@color/white"
         android:hint="@string/interrogação"
@@ -87,7 +87,6 @@
         />
 
     <EditText
-        android:id="@+id/alturaEditText"
         android:layout_width="210dp"
         android:layout_height="60dp"
         android:textColor="@color/white"
@@ -113,7 +112,6 @@
         />
 
     <EditText
-        android:id="@+id/sexoEditText"
         android:layout_width="210dp"
         android:layout_height="60dp"
         android:textColor="@color/white"
@@ -125,7 +123,6 @@
         />
 
     <Button
-        android:id="@+id/saveButton"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:textAlignment="center"
