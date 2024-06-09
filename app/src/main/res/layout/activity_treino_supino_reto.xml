@@ -8,21 +8,45 @@
     android:background="@color/background">
 
 
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="4dp"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:id="@+id/titleSupinoReto"
+        android:text="Supino Reto"
+        style="@style/tituloTreinos"/>
+
+    <TextView
+        android:id="@+id/step1SupinoReto"
+        android:text="1. Deite-se em um banco plano, com os pés firmemente apoiados no chão."
+        style="@style/textView_Treinos"/>
+
+    <TextView
+        android:id="@+id/step2SupinoReto"
+        android:text="2. Segure a barra com as mãos levemente mais largas do que a largura dos ombros, mantendo os pulsos retos."
+        style="@style/textView_Treinos"/>
+
+    <TextView
+        android:id="@+id/step3SupinoReto"
+        android:text="3. Baixe a barra em direção ao peito controladamente, mantendo os cotovelos apontando para fora em um ângulo de aproximadamente 45 graus."
+        style="@style/textView_Treinos"/>
+
+    <TextView
+        android:id="@+id/step4SupinoReto"
+        android:text="4. Empurre a barra de volta à posição inicial, estendendo completamente os braços."
+        style="@style/textView_Treinos"/>
 
     <View
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_weight="1"/>
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:menu="@menu/bottom_navigation"
-        android:background="@color/black"
-        app:itemIconTint="@color/white"
-        app:itemTextColor="@color/white"
-        app:labelVisibilityMode="labeled"/>
-
+    
 
 
 </LinearLayout>

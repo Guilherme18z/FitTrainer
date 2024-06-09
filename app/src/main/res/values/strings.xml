@@ -12,6 +12,17 @@
     <string name="perfilAltura">Altura</string>
     <string name="perfilSexo">Sexo</string>
     <string name="interrogação">\?</string>
-    <!-- TODO: Remove or change this placeholder text -->
+    <string name="supinoReto">Supino Retp</string>
+    <string name="supinoInclinado">Supino Inclinado</string>
+    <string name="PeckDeck">PeckDeck</string>
+    <string name="Crossover">Crossover</string>
+    <string name="supinoDeclinado">Supino Declinado</string>
+    <string name="pulleyFrente">Pulley Frente</string>
+    <string name="pulleyCostas">Pulley Costas</string>
+    <string name="pulleyTriângulo">Pulley Triângulo</string>
+    <string name="remadaUnilateral">Remada Unilateral</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
+
+
+    <!-- TODO: Remove or change this placeholder text -->

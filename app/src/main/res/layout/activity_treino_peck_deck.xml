@@ -1,10 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<!-- peckdeck.xml -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".treino_peckDeck">
+    android:orientation="vertical"
+    android:background="@color/background">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="4dp"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:id="@+id/titlePeckdeck"
+        style="@style/tituloTreinos"
+        android:text="Peckdeck"/>
+
+    <TextView
+        android:id="@+id/step1Peckdeck"
+        style="@style/textView_Treinos"
+        android:text="1. Ajuste o assento para que os braços fiquem em um ângulo de 90 graus."/>
+
+    <TextView
+        android:id="@+id/step2Peckdeck"
+        style="@style/textView_Treinos"
+        android:text="2. Segure os cabos com as mãos e empurre-os para frente até que os braços estejam quase retos."/>
+
+    <TextView
+        android:id="@+id/step3Peckdeck"
+        style="@style/textView_Treinos"
+        android:text="3. Retorne os cabos para a posição inicial de forma controlada, mantendo a contração no peito."/>
+
+    <TextView
+        android:id="@+id/step4Peckdeck"
+        style="@style/textView_Treinos"
+        android:text="4. Repita o movimento para o número desejado de repetições."/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/bottom_navigation"
+        android:background="@color/black"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white"
+        app:labelVisibilityMode="labeled"/>
+
+</LinearLayout>
