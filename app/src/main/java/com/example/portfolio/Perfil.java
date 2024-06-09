@@ -1,15 +1,12 @@
 package com.example.portfolio;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import androidx.fragment.app.FragmentTransaction;
 
 public class Perfil extends AppCompatActivity {
 
@@ -24,5 +21,12 @@ public class Perfil extends AppCompatActivity {
             return insets;
         });
 
+        // Adicionar o PerfilFragment ao criar a atividade
+        if (savedInstanceState == null) {
+            PerfilFragment fragment = new PerfilFragment();
+            FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+            transaction.replace(R.id.fragment_container, fragment); // Certifique-se de que R.id.fragment_container seja o ID do contêiner do seu fragmento
+            transaction.commit();
+        }
     }
 }
